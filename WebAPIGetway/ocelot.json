@@ -1,0 +1,33 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7025"
+  },
+  "Routes": [
+    //Basket
+    {
+      "UpstreamPathTemplate": "/Gateway/API/Basket",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/Test",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7126
+        }
+      ]
+    },
+    //Identify
+    {
+      "UpstreamPathTemplate": "/Gateway/API/Identify",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/Test",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7267
+        }
+      ]
+    }
+  ]
+}
