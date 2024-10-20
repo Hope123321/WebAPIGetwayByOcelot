@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fb736a61-be62-4f5b-aec0-e401c49f9822)# WebAPIGetway
+# WebAPIGetway
 
 In a microservice architecture, an API Gateway serves as a single entry point for all client requests. It acts as a reverse proxy, routing client requests to the appropriate microservice and handling various cross-cutting concerns such as authentication, logging, and rate limiting. This approach simplifies the client interaction by providing a unified interface to multiple services, making the architecture more manageable and scalable.
 
